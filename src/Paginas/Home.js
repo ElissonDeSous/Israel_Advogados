@@ -21,9 +21,9 @@ function Home (){
         </div>
         <div className="lg:flex justify-center ">
             <div className="flex justify-center">
-                <img src="https://direito.usp.br/pca/arquivos/e83584365b58_justica.jpg" className=" w-[100%]  lg:w-[500px] md:100%"  alt=""/>
+                <img src="https://direito.usp.br/pca/arquivos/e83584365b58_justica.jpg" className=" w-[100%]  lg:w-[425px] lg:h-[326px] md:100%"  alt=""/>
             </div>
-            <div className="   flex flex-col justify-center items-center w-[350px] md:w-[100%] m-[20px] lg:w-[500px]">
+            <div className="   flex flex-col justify-center items-center w-[350px] md:w-[100%] m-[20px] lg:w-[400px] lg:h-[327px">
                <h2 className="text-2xl">Direito Cível
                </h2>
                <p className="w-[300px] m-[20px] text-justify ">
@@ -32,12 +32,12 @@ function Home (){
                
             </div>
             <div className="">
-               <img src="https://www.unipe.edu.br/wp-content/uploads/2022/11/direito.webp" className="w-full lg:w-[720px] md:w-[100%]"  alt=""/>
+               <img src="https://www.unipe.edu.br/wp-content/uploads/2022/11/direito.webp" className="w-full lg:w-[425px] lg:h-[327px] md:w-[100%]"  alt=""/>
             </div>
         
         </div>
         <div className="  lg:flex  lg:justify-center  justify-center">
-            <div className="  flex m-[20px] flex-col sm:justify-normal justify-center items-center  w-[350px] md:w-[100%] lg:w-[500px]">
+            <div className="  flex m-[20px] flex-col sm:justify-normal justify-center items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
                 <h2 className="text-2xl m-[20px flex justify-center lg:justify-center w-[300px] lg:w-[350px] ">Direito Trabalhista
                 </h2>
                 <p className="w-[300px] m-[20px] text-justify " >
@@ -45,10 +45,10 @@ function Home (){
                 </p>
                 
              </div>
-             <div className="flex w-full lg:w-[500px] lg:relative right-[80px]">
-                <img src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className=" w-[100%] md:w-[100%] lg:w-[420px] lg:relative: left-[200px] "  alt=""/>
+             <div className="flex w-full lg:w-[500px] ">
+                <img src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className=" w-[100%] md:w-[100%] lg:w-[440px] lg:h-[327]  "  alt=""/>
              </div>
-             <div className="  flex flex-col justify-center  w-[350px] md:w-[100%] lg:w-[500px] ">
+             <div className="  flex flex-col justify-center items-center  w-[350px] md:w-[100%] lg:w-[400px] ">
                 <h2 className=" m-[20px] text-2xl flex justify-center w-[350px] lg:justify-center ">Direito de danos pessoais</h2>
                 <p className="  relative: left-[200px] w-[350px] m-[20px] flex justify-center text-justify">
               
