@@ -10,6 +10,7 @@ function Home (){
        
         <div className="h-[300px] w-full flex flex-col  justify-center items-center">
     <h2 id="h2" className="md:text-7xl text-3xl font-serif ">Israel Advogados</h2>
+         <p className="m-[20px] md:text-2xl text-1xl">OAB/SP - 464.844</p>
                 <p className=" m-[20px] md:text-2xl text-1xl">O direito é a busca pela verdade!</p>
         </div>
 
@@ -21,7 +22,7 @@ function Home (){
         </div>
         <div className="lg:flex justify-center ">
             <div className="flex justify-center">
-                <img src="https://direito.usp.br/pca/arquivos/e83584365b58_justica.jpg" className=" w-[100%]  lg:w-[425px] lg:h-[326px] md:100%"  alt=""/>
+                <img src="https://direito.usp.br/pca/arquivos/e83584365b58_justica.jpg" className=" w-[100%]  lg:w-[490px] lg:h-[326px] md:100%"  alt=""/>
             </div>
             <div className="   flex flex-col justify-center items-center w-[350px] md:w-[100%] m-[20px] lg:w-[400px] lg:h-[327px">
                <h2 className="text-2xl">Direito Cível
@@ -32,7 +33,7 @@ function Home (){
                
             </div>
             <div className="">
-               <img src="https://www.unipe.edu.br/wp-content/uploads/2022/11/direito.webp" className="w-full lg:w-[425px] lg:h-[327px] md:w-[100%]"  alt=""/>
+               <img src="https://www.unipe.edu.br/wp-content/uploads/2022/11/direito.webp" className="w-full lg:w-[490px] lg:h-[327px] md:w-[100%]"  alt=""/>
             </div>
         
         </div>
@@ -46,10 +47,10 @@ function Home (){
                 
              </div>
              <div className="flex w-full lg:w-[500px] ">
-                <img src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className=" w-[100%] md:w-[100%] lg:w-[440px] lg:h-[327]  "  alt=""/>
+                <img src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className=" w-[100%] md:w-[100%] lg:w-[460px] lg:h-[327]  "  alt=""/>
              </div>
              <div className="  flex flex-col justify-center items-center  w-[350px] md:w-[100%] lg:w-[400px] ">
-                <h2 className=" m-[20px] text-2xl flex justify-center w-[350px] lg:justify-center ">Direito de danos pessoais</h2>
+                <h2 className="  text-2xl flex justify-center w-[350px] lg:justify-center ">Direito de danos pessoais</h2>
                 <p className="  relative: left-[200px] w-[350px] m-[20px] flex justify-center text-justify">
               
                 O Israel Advogados tem uma equipe de especialistas prontos para assessorar os clientes na área de São Paulo em questões relacionadas a Direito de danos pessoais. Estendemos nossas experiências jurídicas para ajudar a atender clientes de todos os tipos e tamanhos. Ligue para nós agora mesmo.
@@ -58,12 +59,14 @@ function Home (){
                 
              </div>
 
-             <div>
+             
+        </div>
+        <div className="flex justify-center h-[100px] items-center text-3xl">
+                <h2> Atuação em todas as áreas do Direito</h2>
 
              </div>
          
-        </div>
-        <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
+            <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
          
                 <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
              </div>

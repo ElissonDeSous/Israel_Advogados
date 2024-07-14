@@ -6,6 +6,7 @@ function Praticas (){
    
            <div className="flex flex-col justify-center items-center lg:h-[1300px] m-[20px]: h-[2400px]">
                <h2 className="lg:text-4xl">Áreas de atuação</h2>
+               
                <p>Serviços oferecidos</p>
 
                <div className="mt-[50px] lg:flex justify-around lg:flex-wrap lg:w-[1100px]">
@@ -14,6 +15,7 @@ function Praticas (){
                 <ol className=" flex flex-col items-center mb-7">
                         <h2 className=" text-2xl font-bold flex justify-center  ">Direito civel</h2>
                              <li className="">Direito das Obrigações</li>
+                             
                              <li>Direito Contratual</li>
                              <li>Direito de Familia</li>
                              <li>Direito das Sucessões</li>
@@ -136,7 +138,10 @@ function Praticas (){
                </div>
            </div>
 
- 
+           <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
+         
+               <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
+          </div>
         </div>
     )
 }

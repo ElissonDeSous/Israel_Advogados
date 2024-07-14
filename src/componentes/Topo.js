@@ -9,7 +9,7 @@ function Topo(){
     }
     return(
         <div>
-            <header id="topo" className=" w-[100%] md:[100%] h-[100px] bg-cyan-950 md: fle-col flex  justify-between text-white ">
+            <header id="topo" className=" w-[100%] md:[100%] h-[100px] bg-cyan-950 md: fle-col flex  justify-around text-white ">
             <div className="h-[100px] text-2xl    flex justify-center w-[300px] items-center">
                 <h1 className="md:ext-3xl ">Israel Advogados</h1>
               </div>
@@ -32,7 +32,7 @@ function Topo(){
                     <Link to = "agendamento">Agendamento Online</Link>
                 </li>
                 <li>
-                    <Link>Blog</Link>
+                    <Link to="blog">Blog</Link>
                 </li>
                 </ul>
           

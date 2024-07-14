@@ -10,10 +10,13 @@ function Agendamento(){
 
     function sendEmail(e){
         e.preventDefault()
-        if(Email === "" || Name === "" || Message === "" ){
-            alert("Preeencha todos os campos")
+      
+        if(Name === "" || Email === "" || Message === ""){
+            alert("Preencha todos os campos");
             return;
         }
+
+       
          const templateParams = {
             from_Name: Name,
             Message: Message,
@@ -21,7 +24,7 @@ function Agendamento(){
          }
         emailJS.send("service_idw59ko",  "template_b4t86hg", templateParams, "m-uaFHSj99eKGzOag")
         .then((response)=>{
-            console.log("email  enviado", response.status, response.text)
+            alert("Mensagem enviada com sucesso")
             setName('');
             setEmail('');
             setMessage('');      
@@ -31,7 +34,7 @@ function Agendamento(){
         }
     
     )
-
+        
     }
 
     return(
@@ -49,13 +52,19 @@ function Agendamento(){
            <input className=" mb-6 border-solid border-2 border-black h-[50px] p-8" type="email" placeholder="Digite seu email" name="" id="" onChange={(e)=> setEmail(e.target.value)} value={Email} />
 
            <textarea placeholder="Digite sua mensagem... " className=" mt-6 p-8 border-solid border-2 border-black  lg:h-[400px] w-[300px] lg:w-[700px]" name="" id="" onChange={(e)=> setMessage(e.target.value)} value={Message}>
-               
+               <div>
+                 <h2 className="text-red-500">{}</h2>
+               </div>
            </textarea>
            <div className="flex justify-center">
            <input type="submit"  value="Enviar"  className="p-2 mt-6 w-[300px] text-2xl h-[50px] cursor-pointer text-white bg-green-500" />
            </div>
           
         </form>
+      </div>
+      <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
+         
+         <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
       </div>
         </div>
        

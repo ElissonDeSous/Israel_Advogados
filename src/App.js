@@ -6,6 +6,7 @@ import Sobre from "./Paginas/Sobre"
 import Praticas from "./Paginas/Praticas"
 import Contato from "./Paginas/Contato";
 import Agendamento from "./Paginas/Agendamento";
+import Blog from "./Paginas/Blog"
 
 import Topo from "./componentes/Topo";
 import Footer from "./componentes/Footer";
@@ -22,6 +23,7 @@ function App ()
        <Route path = '/praticas' element = {<Praticas/>}  />
        <Route path = '/contato' element = {<Contato/>}  />
        <Route path = '/agendamento' element = {<Agendamento/>}  />
+       <Route path="/blog" element = {<Blog/>}/>
     </Routes>
 
     <Footer/>
