@@ -44,7 +44,7 @@ function Topo(){
             </button>
          
            </div>
-           <div id="menu" className=" border-solid border-2 border-black   hidden relative: right-[0px] h-[400px] absolute  bg-cyan-950 flex flex-col  justify-around items-center w-[100%] ">
+           <div id="menu" className=" border-solid border-2 border-black  xl:hidden hidden relative: right-[0px] h-[400px] absolute  bg-cyan-950 flex flex-col  justify-around items-center w-[100%] ">
                <div className=" px-2 pt-2 pd-3 sm:px-3 flex justify-center items-center ">
                 <ul className="   flex items-center flex-col h-[400px] w-[100%]   text-white justify-around ">
                 <li>
