@@ -10,7 +10,7 @@ function Praticas (){
              
              <p className="text-2xl">Serviços oferecidos</p>
 
-             <div className="mt-[50px]  xl:flex  justify-around lg:[1200px] flex-wrap xl:w-[1280px]">
+             <div className="mt-[50px]  xl:flex  justify-around lg:[800px] flex-wrap xl:w-[1100px]">
 
               <div>
               <ol className=" font-sans text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
@@ -141,7 +141,7 @@ function Praticas (){
                 </div>
          </div>
 
-         <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
+         <div className="lg:left[500px]   flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed xl:bottom-2 lg:left-[1200px]  ">
        
              <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
         </div>
