@@ -4,17 +4,18 @@ function Praticas (){
     return(
         <div>
    
-           <div className="flex flex-col justify-center items-center lg:h-[1300px] m-[20px]: h-[2400px]">
+           <div className="flex flex-col justify-center items-center lg:h-[] m-[20px]: h-[]">
                <h2 className="lg:text-4xl">Áreas de atuação</h2>
                
                <p>Serviços oferecidos</p>
 
                <div className="mt-[50px] lg:flex justify-around lg:flex-wrap lg:w-[1100px]">
 
+                <div className="flex justify-between flex-wrap w-[900px] ">
                 <div>
-                <ol className=" flex flex-col items-center mb-7">
-                        <h2 className=" text-2xl font-bold flex justify-center  ">Direito civel</h2>
-                             <li className="">Direito das Obrigações</li>
+                <ol className=" text-white bg-cyan-900  no-underline text flex flex-col  p-[20px] mb-7">
+                        <h2 className=" text-2xl font-bold  mb-[20px] ">1- Direito Civel</h2>
+                             <li className="list-none">Direito das Obrigações</li>
                              
                              <li>Direito Contratual</li>
                              <li>Direito de Familia</li>
@@ -135,6 +136,7 @@ function Praticas (){
                           <li>Direito Fundiario</li>
                     </ol>
                       </div>
+                    
                </div>
            </div>
 
@@ -143,6 +145,8 @@ function Praticas (){
                <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
           </div>
         </div>
+        </div>
+        
     )
 }
 export default Praticas
