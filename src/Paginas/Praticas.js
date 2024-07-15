@@ -5,14 +5,14 @@ function Praticas (){
         <div>
    
            <div className="flex flex-col justify-center items-center m-[20px]">
-               <h2 className="lg:text-4xl">Áreas de atuação</h2>
+               <h2 className=" text-3xl lg:text-4xl">Áreas de atuação</h2>
                
-               <p>Serviços oferecidos</p>
+               <p className="text-2xl">Serviços oferecidos</p>
 
                <div className="mt-[50px] lg:flex justify-around lg:flex-wrap lg:w-[1280px]">
 
                 <div>
-                <ol className=" font-sans text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
+                <ol className="  text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
                         <h2 className=" text-2xl font-bold mb-[20px]  "> 1 - Direito Civel</h2>
                              <li className=""> Direito das Obrigações</li>
                              
