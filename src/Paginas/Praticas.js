@@ -13,7 +13,7 @@ function Praticas (){
 
                 <div>
                 <ol className=" font-sans text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]  ">1- Direito Civel</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]  "> 1 - Direito Civel</h2>
                              <li className=""> Direito das Obrigações</li>
                              
                              <li>Direito Contratual</li>
@@ -23,20 +23,20 @@ function Praticas (){
                              <li>Direito Imobiliario</li>
                     </ol>
                   <ol className="  border-solid  border-2 border-black p-[20px]  flex flex-col h-[260px]  mb-7 ">
-                        <h2 className=" text-2xl font-bold mb-[20px]">2- Direito Criminal</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]">2 - Direito Criminal</h2>
                              <li className="">Direito Penal Substantivo</li>
                              <li>Direito Penal Processual</li>  
                     </ol>
 
                     <ol className="text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold flex mb-[20px]">3- Direito Trabalhalista</h2>
+                        <h2 className=" text-2xl font-bold flex mb-[20px]">3 - Direito Trabalhalista</h2>
                              <li>Direito Individual do trabalho</li>
                              <li>Direito Coletivo do Trabalho</li>
                              <li>Direito Processual do Trabalho</li>
                             
                     </ol>
                     <ol className=" border-solid  border-2 border-black p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold flex mb-[20px] ">4- Direito Administrativo</h2>
+                        <h2 className=" text-2xl font-bold flex mb-[20px] ">4 - Direito Administrativo</h2>
                     
                           <li>Licitações e Contratos Administrativos</li>
                              <li>Direito Direito Regulatório</li>
@@ -44,7 +44,7 @@ function Praticas (){
                            
                     </ol>
                     <ol className="text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7 ">
-                        <h2 className=" text-2xl font-bold mb-[20px]  ">5- Direito Constitucional</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]  ">5 - Direito Constitucional</h2>
                     
                           <li>Controle de Constitucionalidade</li>
                              <li>Direitos Fundamentais</li>
@@ -52,7 +52,7 @@ function Praticas (){
                            
                     </ol>
                     <ol className="border-solid  border-2 border-black p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold flex mb-[20px]">6- Direito Empresarial</h2>
+                        <h2 className=" text-2xl font-bold flex mb-[20px]">6 - Direito Empresarial</h2>
                     
                           <li>Direito Societário</li>
                           <li>Direito Falimentar e Recuperação Judicial</li>
@@ -61,7 +61,7 @@ function Praticas (){
                            
                     </ol>
                     <ol className="text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7 ">
-                        <h2 className=" text-2xl font-bold mb-[20px]"> 7- Direito Tributário</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]"> 7 - Direito Tributário</h2>
                           <li>Tributos Federais</li>
                           <li>Tributos Estaduais</li>
                           <li>Tributos Municipais</li>
@@ -72,14 +72,14 @@ function Praticas (){
                     <div>
                     
                     <ol className="border-solid  border-2 border-black p-[20px]  flex flex-col  h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold flex mb-[20px]">8- Direito Internacional</h2>
+                        <h2 className=" text-2xl font-bold flex mb-[20px]">8 - Direito Internacional</h2>
                           <li>Direito Internacional Publico</li>
                           <li>Direito Internacional Privado </li>
                           <li>Direito Humanos Internacionais</li>
                            
                     </ol>
                     <ol className="text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold  mb-[20px] ">9- Direito Ambiental</h2>
+                        <h2 className=" text-2xl font-bold  mb-[20px] ">9 - Direito Ambiental</h2>
                           <li>Legislação Ambiental</li>
                           <li>Direito Minerario</li>
                           <li>Direito dos cursos Hidricos</li>
@@ -87,28 +87,28 @@ function Praticas (){
                     </ol>
                     
                     <ol className="border-solid  border-2 w-[330px] border-black p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]">10- Direito Consumidor</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]">10 - Direito Consumidor</h2>
                           <li>Proteção de Defesa do Consumidor</li>
                           <li>Relações de Consumo</li>
                            
                     </ol>
                     <ol className="text-white bg-cyan-900 p-[20px] w-[330px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px] ">11- Direito Previdenciário</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px] ">11 - Direito Previdenciário</h2>
                           <li>Seguridade Social</li>
                           <li>Benefícios Previdenciarios</li>
                     </ol>
                     <ol className="border-solid w-[330px]  border-2 border-black p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]">12- Direito Militar</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]">12 - Direito Militar</h2>
                           <li>Direito Penal Militar</li>
                           <li>Direito Administrativo Militar</li>
                     </ol>
                     <ol className="text-white w-[330px] bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]">13-Direito Digital</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]">13 -Direito Digital</h2>
                           <li>Direito da Internet</li>
                           <li>Proteção de Dados Pessoais</li>
                     </ol>
                     <ol className="border-solid w-[330px] border-2 border-black p-[20px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold  mb-[20px]">14- Direito Financeiro Econômico</h2>
+                        <h2 className=" text-2xl font-bold  mb-[20px]">14 - Direito Financeiro Econômico</h2>
                           <li>Mercado de Capitais</li>
                           <li>Direito Bancario</li>
                     </ol>
@@ -121,19 +121,19 @@ function Praticas (){
                      
                     <div>
                     <ol className="text-white bg-cyan-900 p-[20px] w-[330px]  flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]">15- Direito de Energia</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]">15 - Direito de Energia</h2>
                           <li>Regulação de Energia Elétrica</li>
                           <li>Direito do Petroleo e Gás</li>
                     </ol>
                     
                     <ol className="border-solid  border-2 border-black p-[20px] w-[330px] flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]r">16- Direito Marítimo e Aeronáutico
+                        <h2 className=" text-2xl font-bold mb-[20px]r">16 - Direito Marítimo e Aeronáutico
                         </h2>
                           <li>Regulação Maritima</li>
                           <li>Direito Aeronáutico</li>
                     </ol>
                     <ol className="text-white bg-cyan-900 p-[20px] w-[330px] flex flex-col h-[260px]  mb-7">
-                        <h2 className=" text-2xl font-bold mb-[20px]">17- Direito Agrário</h2>
+                        <h2 className=" text-2xl font-bold mb-[20px]">17 - Direito Agrário</h2>
                           <li>Reforma Agrária</li>
                           <li>Direito Fundiario</li>
                           </ol>
