@@ -10,7 +10,7 @@ function Praticas (){
              
              <p className="text-2xl">Serviços oferecidos</p>
 
-             <div className="mt-[50px]  xl:flex  justify-around lg:700px flex-wrap xl:w-[1280px]">
+             <div className="mt-[50px]  xl:flex  justify-around lg:[1200px] flex-wrap xl:w-[1280px]">
 
               <div>
               <ol className=" font-sans text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
