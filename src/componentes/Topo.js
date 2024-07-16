@@ -63,7 +63,7 @@ function Topo(){
                     <Link to = "agendamento">Agendamento Online</Link>
                 </li>
                 <li>
-                    <Link>Blog</Link>
+                    <Link to = "/blog">Blog</Link>
                 </li>
                  </ul>
                </div>
