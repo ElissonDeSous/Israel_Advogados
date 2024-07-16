@@ -7,6 +7,7 @@ import Praticas from "./Paginas/Praticas"
 import Contato from "./Paginas/Contato";
 import Agendamento from "./Paginas/Agendamento";
 import Blog from "./Paginas/Blog"
+import Criar from './Paginas/blog/Criar'
 
 import Topo from "./componentes/Topo";
 import Footer from "./componentes/Footer";
@@ -24,6 +25,7 @@ function App ()
        <Route path = '/contato' element = {<Contato/>}  />
        <Route path = '/agendamento' element = {<Agendamento/>}  />
        <Route path="/blog" element = {<Blog/>}/>
+       <Route path="/criar" element = {<Criar/>}/>
     </Routes>
 
     <Footer/>
