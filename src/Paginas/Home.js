@@ -1,20 +1,20 @@
-
+import banner from "./img/banner.jpg"
 
 function Home (){
     return(
         <div>
              <section>
             
-                <img src="https://media.istockphoto.com/id/1411630763/pt/foto/wooden-brown-judge-gavel-on-the-table-copy-space-banner-background.jpg?s=612x612&w=0&k=20&c=o8TPwJPyAcdOnoILNal2A4G4JuaG_-rWZsmCSxuAFLo=" width="100%"  alt="Imagem com martelo judicial"/>
+                <img src={banner} width="100%" height="200px"  alt=""/>
     
        
-        <div className="h-[300px] w-full flex flex-col  justify-center items-center">
-    <h2 id="h2" className="md:text-7xl text-3xl font-serif ">Israel Advogados</h2>
+        <div className="h-[300px] w-full  flex flex-col  justify-center items-center">
+          <h2 id="h2" className="md:text-7xl text-3xl font-serif ">Israel Advogados</h2>
          <p className="m-[20px] md:text-2xl text-1xl">OAB/SP - 464.844</p>
                 <p className=" m-[20px] md:text-2xl text-1xl">O direito é a busca pela verdade!</p>
         </div>
 
-        <div className="bg-cyan-950 h-[300px] flex flex-col justify-center items-center text-white ">
+        <div className="bg-cyan-950 h-[300px] lg:flex lg:flex-col flex flex-col justify-center items-center text-white ">
             <h2 className=" text-3xl md:text-4xl">Áreas de atuação</h2>
             <p className="text-1xl m-[20px]">Serviços oferecidos
 
