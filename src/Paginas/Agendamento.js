@@ -7,12 +7,15 @@ function Agendamento(){
     const [Name,setName ] = useState("")
     const [Email,setEmail ] = useState("")
     const [Message,setMessage ] = useState("")
+    const [erro, setErro] = useState("")
+    const [sucesso, setSucesso]  = useState("")
 
     function sendEmail(e){
         e.preventDefault()
       
         if(Name === "" || Email === "" || Message === ""){
-            alert("Preencha todos os campos");
+            setErro("Preencha todos os campos")
+            setSucesso("")
             return;
         }
 
@@ -24,10 +27,11 @@ function Agendamento(){
          }
         emailJS.send("service_idw59ko",  "template_b4t86hg", templateParams, "m-uaFHSj99eKGzOag")
         .then((response)=>{
-            alert("Mensagem enviada com sucesso")
+           setSucesso("Formulario enviado com sucesso")
             setName('');
             setEmail('');
-            setMessage('');      
+            setMessage('');  
+            setErro("");    
             
         }, (erro)=>{
             console.log("ERRO: ", erro)
@@ -52,10 +56,14 @@ function Agendamento(){
            <input className=" mb-6 border-solid border-2 border-black h-[50px] p-8" type="email" placeholder="Digite seu email" name="" id="" onChange={(e)=> setEmail(e.target.value)} value={Email} />
 
            <textarea placeholder="Digite sua mensagem... " className=" mt-6 p-8 border-solid border-2 border-black  lg:h-[400px] w-[300px] lg:w-[700px]" name="" id="" onChange={(e)=> setMessage(e.target.value)} value={Message}>
-               <div>
-                 <h2 className="text-red-500">{}</h2>
-               </div>
+               
            </textarea>
+           <div>
+                 <h2 className="text-red-500 text-center font-bold text-2xl">{erro}</h2>
+           </div>
+           <div>
+                 <h2 className="text-green-500 text-center font-bold text-2xl">{sucesso}</h2>
+           </div>
            <div className="flex justify-center">
            <input type="submit"  value="Enviar"  className="p-2 mt-6 w-[300px] text-2xl h-[50px] cursor-pointer text-white bg-green-500" />
            </div>
