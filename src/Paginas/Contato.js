@@ -7,7 +7,7 @@ function Contato(){
      <section className=" mt-[20px] ">
            <div className="flex  flex-col lg:items-center     lg:w-[100%]   ">
             <h2 className=" text-4xl flex justify-center m-[20px]">Entre em contato</h2>
-            <div className="h-[400px] flex flex-col justify-center w-[400px]">
+            <div className="h-[200px] flex flex-col  w-[400px]">
             <div className="flex m-2   items-center">
                     <img className="w-[50px]"    src= "https://cdn-icons-png.freepik.com/256/3955/3955024.png?semt=ais_hybrid" alt=""/>
 
