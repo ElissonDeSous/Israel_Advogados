@@ -9,11 +9,11 @@ function Blog(){
   const {documents:posts,load} = useFechDocuments("posts");
     const Name = "Administrador"
     return(
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col items-center ">
           <div>
              <Link className="text-white" to = "/criar">Criar post</Link>
           </div>
-            <h1 className="text-4xl m-[20px] h-[200px] flex items-center "></h1>
+            <h1 className="text-4xl m-[20px] h-[60px] flex items-center ">Dr.Israel Oliveira Pereira</h1>
             <div>
               <div className="lg:w-[800px] p-2 mt[50px]">
                {posts && posts.map((post)=>(
@@ -32,6 +32,10 @@ function Blog(){
          
          <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
       </div>
+      <div className="lg:left[500px]   flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed xl:bottom-2 lg:left-[1200px]  ">
+       
+       <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
+  </div>
         </div>
     )
 }
