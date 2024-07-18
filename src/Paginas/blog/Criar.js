@@ -94,7 +94,7 @@ function Criar (){
     return(
         <div>
             <div className="flex flex-col justify-center items-center ">
-                <h1 className="m-[20px] text-4xl font-bold">Painel Administrativo</h1>
+                <h1 className="m-[20px] text-3xl xl:text-4xl font-bold">Painel Administrativo</h1>
                 <form onSubmit={Enviarpost} className="flex flex-col items-center  ">
                     <input className="border-solid border-2 mb-6 w-[300px] xl:w-[900px] border-black" type="text" placeholder="Insira um titulo" onChange={(e)=> setTitulo(e.target.value)} value={titulo}/>
 
@@ -103,127 +103,127 @@ function Criar (){
 
  
               <div className="flex flex-col items-center ">
-                <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo1</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo1(e.target.value)} value={paragrafo1}>
+                <h1 className="text-2xl  mb-[10px] text-center font-bold">Párgrafo 1</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="  resize-none h-[200px] border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo1(e.target.value)} value={paragrafo1}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo2</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo2(e.target.value)} value={paragrafo2}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Páragrafo 2</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo2(e.target.value)} value={paragrafo2}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo3</h1>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 3</h1>
 
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo3(e.target.value)} value={paragrafo3}>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo3(e.target.value)} value={paragrafo3}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo4</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo4(e.target.value)} value={paragrafo4}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 4</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo4(e.target.value)} value={paragrafo4}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo5</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo5(e.target.value)} value={paragrafo5}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 5</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo5(e.target.value)} value={paragrafo5}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo6</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo6(e.target.value)} value={paragrafo6}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 6</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo6(e.target.value)} value={paragrafo6}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo7</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo7(e.target.value)} value={paragrafo7}>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 7</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo7(e.target.value)} value={paragrafo7}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo8</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo8(e.target.value)} value={paragrafo8}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 8</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo8(e.target.value)} value={paragrafo8}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo9</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo9(e.target.value)} value={paragrafo9}>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 9</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo9(e.target.value)} value={paragrafo9}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo10</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo10(e.target.value)} value={paragrafo10}>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 10</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo10(e.target.value)} value={paragrafo10}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo11</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo11(e.target.value)} value={paragrafo11}>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 11</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo11(e.target.value)} value={paragrafo11}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo12</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo12(e.target.value)} value={paragrafo12}>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 12</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo12(e.target.value)} value={paragrafo12}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo13</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo13(e.target.value)} value={paragrafo13}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 13</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo13(e.target.value)} value={paragrafo13}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo14</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo14(e.target.value)} value={paragrafo14}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 14</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo14(e.target.value)} value={paragrafo14}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo15</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo15(e.target.value)} value={paragrafo15}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 15</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black resize-none w-[300px] h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo15(e.target.value)} value={paragrafo15}>
               
                   </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo16</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo16(e.target.value)} value={paragrafo16}>
-              
-                  </textarea>
-
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo17</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo17(e.target.value)} value={paragrafo17}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo18</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo18(e.target.value)} value={paragrafo18}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo19</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo19(e.target.value)} value={paragrafo19}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo20</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo20(e.target.value)} value={paragrafo20}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo21</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo21(e.target.value)} value={paragrafo21}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo22</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo22(e.target.value)} value={paragrafo22}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo23</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo23(e.target.value)} value={paragrafo23}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo24</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo24(e.target.value)} value={paragrafo24}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo25</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo25(e.target.value)} value={paragrafo25}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo26</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo26(e.target.value)} value={paragrafo26}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo27</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo27(e.target.value)} value={paragrafo27}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo28</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo28(e.target.value)} value={paragrafo28}>
-              
-                  </textarea>
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo29</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo29(e.target.value)} value={paragrafo29}>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 16</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo16(e.target.value)} value={paragrafo16}>
               
                   </textarea>
 
-                  <h1 className="text-2xl mb-[10px] text-center font-bold">Paragrafo30</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo30(e.target.value)} value={paragrafo30}>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 17</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo17(e.target.value)} value={paragrafo17}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 18</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo18(e.target.value)} value={paragrafo18}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 19</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo19(e.target.value)} value={paragrafo19}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 20</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo20(e.target.value)} value={paragrafo20}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 21</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo21(e.target.value)} value={paragrafo21}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 22</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo22(e.target.value)} value={paragrafo22}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 23</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo23(e.target.value)} value={paragrafo23}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 24</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo24(e.target.value)} value={paragrafo24}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 25</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo25(e.target.value)} value={paragrafo25}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 26</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo26(e.target.value)} value={paragrafo26}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 27</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo27(e.target.value)} value={paragrafo27}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 28</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo28(e.target.value)} value={paragrafo28}>
+              
+                  </textarea>
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 29</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo29(e.target.value)} value={paragrafo29}>
+              
+                  </textarea>
+
+                  <h1 className="text-2xl mb-[10px] text-center font-bold">Párgrafo 30</h1>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] resize-none xl:w-[900px] mb-6" onChange={(e)=> setParagrafo30(e.target.value)} value={paragrafo30}>
               
                   </textarea>
                 

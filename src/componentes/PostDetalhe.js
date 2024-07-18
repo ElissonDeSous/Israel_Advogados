@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const PostDetalhe = ({post})=>{
     return(
-        <div className="w-[900px]flex flex-col justify-center items-center p-2 mb-[20px]">
-             <img className="mb-[20px] xl:relative xl:left-[100px]" src={post.imagem} width="600px" alt={post.titulo} />
+        <div className="w-[900px]flex flex-col justify-center p-2 mb-[20px]">
+             <img className="mb-[20px] xl:relative xl:left-[50px] " src={post.imagem} width="600px" alt={post.titulo} />
             <h2 className="lg:text-4xl font-bold mb-[20px]">{post.titulo}</h2>
 
          <h2>

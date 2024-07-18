@@ -11,7 +11,7 @@ function Blog(){
     return(
         <div className="flex flex-col items-center ">
           <div>
-             <Link className="text-white" to = "/criar">Criar post</Link>
+             
           </div>
             <h1 className="text-4xl m-[20px] h-[60px] flex items-center font-bold ">Dr.Israel Oliveira Pereira</h1>
             <div>
