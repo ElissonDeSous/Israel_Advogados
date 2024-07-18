@@ -165,7 +165,7 @@ function Criar (){
               
                   </textarea>
                   <h1 className="text-2xl mb-[10px]  text-center font-bold">Párgrafo 16</h1>
-                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo16(e.target.value)} value={paragrafo16}>
+                  <textarea wrap="hard" placeholder="Insira algum conteudo " className="border-solid border-2 border-black w-[300px] resize-none h-[200px] xl:w-[900px] mb-6" onChange={(e)=> setParagrafo16(e.target.value)} value={paragrafo16}>
               
                   </textarea>
 
