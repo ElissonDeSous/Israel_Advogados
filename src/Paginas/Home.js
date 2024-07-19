@@ -54,7 +54,7 @@ function Home (){
                 <h2 className=" font-bold text-2xl m-[20px] flex justify-center lg:justify-center w-[300px] lg:w-[350px] mt-[20px] ">Direito de Danos Pessoais</h2>
                 <p className=" lg:relative lg:bottom-[20px]  w-[300px] m-[20px]  text-justify ">
               
-                O Israel Advogados tem uma equipe de especialistas prontos para assessorar os clientes na área de São Paulo em questões relacionadas a Direito de danos pessoais. Estendemos nossas experiências jurídicas para ajudar a atender clientes de todos os tipos e tamanhos. Ligue para nós agora mesmo.
+                O Israel Advogados tem uma equipe de especialistas prontos para assessorar os clientes na área de São Paulo em questões relacionadas a Direito de danos pessoais. Estendemos nossas experiências jurídicas para ajudar a atender clientes de todos os tipos e tamanhos.
 
                 </p>
                 
