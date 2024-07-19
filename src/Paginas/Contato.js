@@ -1,33 +1,31 @@
-
-import instagran from "./img/instagram-removebg-preview.png"
-import OutlookIcon from "./img/IconOutlook.png"
 function Contato(){
   return(
     <div>
-     <section className=" mt-[20px] ">
-           <div className="flex  flex-col lg:items-center     lg:w-[100%]   ">
+     <section className=" mt-[20px] flex justify-center">
+           <div className="flex  flex-col lg:items-center  border-solid border-2 border-black   lg:w-[400px]   ">
             <h2 className=" text-4xl flex justify-center m-[20px]">Entre em contato</h2>
             <div className="h-[200px] flex flex-col  w-[400px]">
             <div className="flex m-2   items-center">
-                    <img className="w-[50px]"    src= "https://cdn-icons-png.freepik.com/256/3955/3955024.png?semt=ais_hybrid" alt=""/>
 
-                    <a href="https://www.instagram.com/israel.advocacia/">
-                    <p className="m-2">@israel.advocacia</p>
-                    </a>
+
+              <a className="flex"  href="https://www.instagram.com/israel.advocacia/">
+                <img className="w-[50px]" src="https://cdn-icons-png.freepik.com/256/3955/3955024.png?semt=ais_hybrid" />
+                <p className="m-2">Israel Oliveira Pereira</p>
+              </a>
                     
              
                </div>
                 
              <div className="flex m-2 ">
          
-                <img className="w-[50px]" src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-originale.png" alt=""/>
-                <a href="https://www.linkedin.com/in/israel-oliveira-pereira-a4a629150/">
-                <p className="m-2">Israel Oliveira Pereira
-                </p></a>
+             <a className="flex"  href="https://www.linkedin.com/in/israel-oliveira-pereira-a4a629150/">
+                <img className="w-[50px]" src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-originale.png"/>
+                <p className="m-2">Israel Oliveira Pereira</p>
+              </a>
                 
              </div>
              <div className="flex m-2 items-center">
-                <a href="" target="_blank"><img className="w-[50px]" src="https://www.liblogo.com/img-logo/ou154oc7d-outlook-logo-outlook-free-icon-of-circle-icons.png" alt=""/></a>
+                <a href="https://israeladvogados.com/agendamento" target="_blank"><img className="w-[50px]" src="https://static-00.iconduck.com/assets.00/outlook-icon-1024x1024-5jgkdjd0.png" alt=""/></a>
                 <p className="m-2">israel.advocacia@outlook.com
                 </p>
              </div>

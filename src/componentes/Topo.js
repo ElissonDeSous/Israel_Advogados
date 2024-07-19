@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../assets/logo (2).png"
 
 function Topo(){
 
@@ -10,7 +11,8 @@ function Topo(){
     return(
         <div>
             <header id="topo" className=" w-[100%] md:[100%] h-[100px] bg-cyan-950 md: fle-col flex  justify-around text-white ">
-            <div className="h-[100px] text-2xl    flex justify-center w-[300px] items-center">
+            <div className="h-[100px] text-2xl    flex  justify-around w-[250px] items-center">
+                 <img className="rounded-full" width="50px" src={Logo} />
                 <h1 className="md:ext-3xl ">Israel Advogados</h1>
               </div>
            <nav className="h-600px bg-cyan-950  ">

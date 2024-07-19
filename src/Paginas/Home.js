@@ -39,7 +39,7 @@ function Home (){
         
         </div>
         <div className="  lg:flex  lg:justify-center  justify-center">
-            <div className="  flex m-[20px] flex-col sm:justify-normal justify-center items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
+            <div className="flex m-[20px] flex-col sm:justify-normal justify-center items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
                 <h2 className=" font-bold text-2xl m-[20px flex justify-center lg:justify-center w-[300px] lg:w-[350px] ">Direito Trabalhista
                 </h2>
                 <p className="w-[300px] m-[20px] text-justify " >
@@ -47,12 +47,12 @@ function Home (){
                 </p>
                 
              </div>
-             <div className="flex w-full lg:w-[420px] relative right-[20px]">
+             <div className="flex w-full lg:w-[420px]  " >
                 <img src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className="  w-[100%] md:w-[100%] lg:w-[450px] lg:h-[327]  "  alt=""/>
              </div>
-             <div className="  flex flex-col items-center  w-[350px] md:w-[100%] lg:w-[400px] ">
+             <div className=" lg:relative lg:bottom-[20px]  flex m-[20px] flex-col   items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
                 <h2 className=" font-bold text-2xl m-[20px] flex justify-center lg:justify-center w-[300px] lg:w-[350px] mt-[20px] ">Direito de Danos Pessoais</h2>
-                <p className="   w-[300px]  flex justify-center text-justify">
+                <p className=" lg:relative lg:bottom-[20px]  w-[300px] m-[20px]  text-justify ">
               
                 O Israel Advogados tem uma equipe de especialistas prontos para assessorar os clientes na área de São Paulo em questões relacionadas a Direito de danos pessoais. Estendemos nossas experiências jurídicas para ajudar a atender clientes de todos os tipos e tamanhos. Ligue para nós agora mesmo.
 

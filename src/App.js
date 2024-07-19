@@ -23,7 +23,7 @@ function App ()
        <Route path = '/sobre' element = {<Sobre/>}  />
        <Route path = '/praticas' element = {<Praticas/>}  />
        <Route path = '/contato' element = {<Contato/>}  />
-       <Route path = '/agendamento' element = {<Agendamento/>}  />
+       <Route path = '/agendamento' element = {<Agendamento/>} />
        <Route path="/blog" element = {<Blog/>}/>
        <Route path="/criar" element = {<Criar/>}/>
     </Routes>
