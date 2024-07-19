@@ -27,6 +27,12 @@ function Praticas (){
                       <h2 className=" text-2xl font-bold mb-[20px]">2 - Direito Criminal</h2>
                            <li className="">Direito Penal Substantivo</li>
                            <li>Direito Penal Processual</li>  
+                           <li>Trubunal do Júri</li>
+                           <li>Crimes Contra Honra</li>
+                           <li>Calúnia, Difamação, Injúria</li>
+                           <li>Tráfico de Drogas</li>
+                           <li>Lei Maria da Penha</li>
+
                   </ol>
 
                   <ol className="text-white bg-cyan-900 p-[20px]  flex flex-col h-[260px]  mb-7">
