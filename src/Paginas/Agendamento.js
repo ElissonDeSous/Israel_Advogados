@@ -1,6 +1,7 @@
 import React from "react"
 import { useState } from "react"
 import emailJS from "@emailjs/browser"
+import "./home.css"
 
 
 function Agendamento(){
@@ -72,7 +73,7 @@ function Agendamento(){
       </div>
       <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
          
-         <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
+         <a id='whats' href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
       </div>
         </div>
        
