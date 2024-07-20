@@ -27,7 +27,7 @@ function Contato(){
             
                 
              </div>
-             <a className="flex relative left-2 "   href="https://israeladvogados.com/agendamento">
+             <a className="flex justify-center w-[230px]   " href="https://israeladvogados.com/agendamento">
                 <img className="w-[50px]" src="https://static-00.iconduck.com/assets.00/outlook-icon-1024x1024-5jgkdjd0.png"/>
                 <p className="m-2">Israel Oliveira Pereira</p>
               </a>

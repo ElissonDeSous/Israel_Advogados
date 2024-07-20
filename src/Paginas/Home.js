@@ -1,5 +1,6 @@
 import banner from "./img/banner.jpg"
 import imgDireito1 from "./img/imagemDireitocivel.jpg"
+import "./home.css"
 
 function Home (){
     return(
@@ -21,7 +22,7 @@ function Home (){
 
             </p>
         </div>
-        <div className="lg:flex justify-center ">
+        <div id="conteudo1" className="  lg:flex lg:justify-center ">
             <div className="flex justify-center">
                 <img src= {imgDireito1} className=" w-[100%]  lg:w-[490px] lg:h-[326px] md:100%"  alt=""/>
             </div>
@@ -33,12 +34,12 @@ function Home (){
                </p>
                
             </div>
-            <div className="">
+            <div className="w-[full]">
                <img src="https://www.unipe.edu.br/wp-content/uploads/2022/11/direito.webp" className="w-full lg:w-[490px] lg:h-[327px] md:w-[100%]"  alt=""/>
             </div>
         
         </div>
-        <div className="  lg:flex  lg:justify-center  justify-center">
+        <div id="conteudo1" className="  lg:flex  lg:justify-center  justify-center">
             <div className="flex m-[20px] flex-col sm:justify-normal justify-center items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
                 <h2 className=" font-bold text-2xl m-[20px flex justify-center lg:justify-center w-[300px] lg:w-[350px] ">Direito Trabalhista
                 </h2>
@@ -47,8 +48,8 @@ function Home (){
                 </p>
                 
              </div>
-             <div className="flex w-full lg:w-[420px]  " >
-                <img src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className="  w-[100%] md:w-[100%] lg:w-[450px] lg:h-[327]  "  alt=""/>
+             <div id="containerimg" className="flex w-full md:w-[500px] lg:w-[420px]  " >
+                <img id= "imagem" src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className="  w-[100%] md:w-[100%]  xl:w-[420px] lg:h-[327]  "  alt=""/>
              </div>
              <div className=" lg:relative lg:bottom-[20px]  flex m-[20px] flex-col   items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
                 <h2 className=" font-bold text-2xl m-[20px] flex justify-center lg:justify-center w-[300px] lg:w-[350px] mt-[20px] ">Direito de Danos Pessoais</h2>
