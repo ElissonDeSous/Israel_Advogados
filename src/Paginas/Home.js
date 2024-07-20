@@ -24,7 +24,7 @@ function Home (){
         </div>
         <div id="conteudo1" className="  lg:flex lg:justify-center ">
             <div className="flex justify-center">
-                <img src= {imgDireito1} className=" w-[100%]  lg:w-[490px] lg:h-[326px] md:100%"  alt=""/>
+                <img src= {imgDireito1} className=" w-[100%]  lg:w-[490px] lg:h-[326px] "  alt=""/>
             </div>
             <div className="   flex flex-col justify-center items-center w-[350px] md:w-[100%] m-[20px] lg:w-[400px] lg:h-[327px">
                <h2 className="text-2xl font-bold" >Direito Cível
@@ -48,8 +48,8 @@ function Home (){
                 </p>
                 
              </div>
-             <div id="containerimg" className="flex w-full md:w-[500px] lg:w-[420px]  " >
-                <img id= "imagem" src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className="  w-[100%] md:w-[100%]  xl:w-[420px] lg:h-[327]  "  alt=""/>
+             <div id="containerimg" className="flex w-[100%] md:w-[100%] lg:w-[420px] ">
+                <img id= "imagem" src="https://wp.ebradi.com.br/wp-content/uploads/2020/07/ebradi_ebradi_image_467-1080x675.jpeg" className=" w-[100%] lg:w-[490px] xl:w-[420px] lg:h-[327]  "  alt=""/>
              </div>
              <div className=" lg:relative lg:bottom-[20px]  flex m-[20px] flex-col   items-center  w-[350px] md:w-[100%] lg:w-[400px] lg:[327]">
                 <h2 className=" font-bold text-2xl m-[20px] flex justify-center lg:justify-center w-[300px] lg:w-[350px] mt-[20px] ">Direito de Danos Pessoais</h2>
@@ -70,7 +70,7 @@ function Home (){
          
             <div className="flex fixed bottom-[50px] left-[300px] m-2 items-center lg:fixed lg:bottom-2 lg:left-[1200px]  ">
          
-                <a href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
+                <a id="whats" href="https://wa.me/12997917063?text=Olá, Dr. Israel! Gostaria de marcar uma consulta." target="_blank"><img className="w-[50px]" src= "https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt=""/></a>
              </div>
          </section>
         </div>
