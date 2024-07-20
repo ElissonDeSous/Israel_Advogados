@@ -14,7 +14,7 @@ function Blog(){
           <div>
              
           </div>
-            <h1 className="text-4xl m-[20px] h-[60px] flex items-center font-bold ">Dr.Israel Oliveira Pereira</h1>
+            <h1 className=" text-2xl lg:text-4xl m-[20px] h-[60px] flex items-center font-bold ">Dr.Israel Oliveira Pereira</h1>
             <div>
               <div className="lg:w-[800px] p-2 mt[50px]">
                {posts && posts.map((post)=>(
